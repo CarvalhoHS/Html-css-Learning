@@ -1,0 +1,199 @@
+font-face {
+  font-family: "fontelogo";
+  src: url("bubblegum-sans-regular.otf");
+}
+p {
+  text-indent: 20px;
+}
+body {
+  font-family: Arial,sans-serif;
+  color: rgba(0, 0, 0, 0.89);
+  background-color: #fffb00;
+}
+header img {
+  position: absolute;
+  height: 25%;
+  right: 120px;
+  top: 90px;
+}
+header#cab {
+  border-bottom: 1px rgb(255, 255, 255) dashed;
+  height: 150px;
+}
+hgroup h3{
+  margin-top: 70px;
+  font-size: 7pt;
+  margin-left: 490px;
+  color: rgb(255, 255, 255);
+}
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+header#cab h1 {
+  font-family: "fontelogo",;
+  font-size: 20pt;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 2px rgb(56, 56, 56);
+  padding: 0px;
+  margin-bottom: 0px;
+}
+header#cab h2 {
+  font-family: "fontlogo", ;
+  color: rgb(255, 255, 255);
+  font-size: 15pt;
+  padding: px;
+  margin-top: 0px;
+}
+div#nsei {
+  font: normal 50pt;
+}
+div#qualidade {
+  width: 1100px;
+  background-color: rgb(255, 255, 255);
+  margin: -20px auto 0px auto;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  padding: 10px;
+}
+h2 {
+  font: normal 15pt Arial;
+  color: rgb(255, 255, 255);
+}
+figure.fotolegenda {
+  position: relative;
+}
+figure.fotolegenda img {
+  width: 100%;
+  height: 100%;
+  padding-right: 200px;
+}
+figure.fotolegenda figcaption {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  font: normal 28pt Arial;
+  background-color: rgba(255, 253, 253, 0.4);
+  color: rgb(0, 0, 0);
+  width: 65%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: opacity 1s;
+  margin-left: 162px;
+}
+figure.fotolegenda:hover figcaption {
+  opacity: 1;
+}
+/*formataçao do menu*/
+nav#menu {
+  display: block;
+}
+
+nav#menu ul {
+  position: absolute;
+  list-style: none;
+  text-transform: uppercase;
+  top: 0px;
+  right: 120px;
+}
+nav#menu li {
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: 2px;
+}
+nav#menu li:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 1s;
+}
+nav#menu h1 {
+  display: none;
+}
+nav#menu a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+nav#menu a:hover {
+  color: rgb(0, 0, 0);
+  transition: 2s;
+}
+section#corpo{
+    display: block;
+    width: 1000px;
+}
+article h2 {
+  font-size: 15pt rgb(255, 255, 255);
+  background-color: rgb(138, 138, 138);
+  padding: 12px;
+  margin: 10px 0px 10px 0 px;
+
+}
+table {
+  border: 3px solid grey;
+  background-color: rgb(5, 30, 255);
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+table td{
+  border: 1px dashed rgba(4, 0, 255, 0.712);
+padding: 10px;
+text-align: left;
+}
+table td.ce{
+background-color:rgb(255, 255, 255);
+border: none;
+}
+table td.cd{
+font-weight: bold;
+border: none;
+}
+table caption{
+color: rgb(13, 0, 129);
+font-size: 20pt;
+font-weight: bolder;
+}
+footer{
+    clear: both;
+border-top: 1px solid black;
+text-align: center;
+}
+
+iframe{
+  margin-left: 250px;
+}
+
+img#cidade{
+  width: 65%;
+margin-left: 162px;
+}
+
+figure.PFF2 {
+  position: relative;
+}
+figure.PFF2 img {
+  width: 25%;
+  height: 25%;
+  padding-right: 200px;
+  margin-left: 360px;
+}
+figure.PFF2 figcaption {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  font: normal 28pt Arial;
+  background-color: rgb(0, 0, 0, 0.4);
+  color: rgb(255, 255, 255);
+  width: 65%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: opacity 1s;
+  margin-left: 162px;
+}
+figure.PFF2:hover figcaption {
+  opacity: 1;
+}
