@@ -1,0 +1,15 @@
+body{
+    background-color: pink;
+}
+
+.local{
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    border: 2px solid black;
+    width: 200px;
+    margin-top: 20px;
+}
+.Lugar{
+    padding-left: 20px;
+}
