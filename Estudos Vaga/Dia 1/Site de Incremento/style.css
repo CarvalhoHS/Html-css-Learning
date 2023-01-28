@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7be5f8;
+}
+header{
+width: 100%;
+height: 50px;
+text-align: center;
+border: 5px solid black
+}
+li{
+    padding-top: 15px;
+}
+div#area-do-cont{
+    text-align: center;
+    margin-top: 100px;
+}
+#num{
+    font-size: 200px;
+}
+button{
+    width: 130px;
+    font-size: 20px;
+}
+button:hover{
+    color: #7be5f8;
+    
+}
